@@ -1,0 +1,126 @@
+# Implementation av Martin Berkhans Reverse Pyramid Training (https://leangains.com/reverse-pyramid-training-guide/)
+# kombinerat med det patreonspecifika programmet 'How I Learned to Love Squats Again' (https://www.patreon.com/posts/how-i-learned-to-17649413)
+
+Meta:
+  version: 1.0
+Program:
+  - Måndag:
+    - Knäböj:
+      sets: 3
+      reps: 10  
+      vikt:
+        referens: 10RM
+        intensitet:
+          - 0.6
+          - 0.6
+          - 0.6
+      vila: 3
+    - Marklyft:
+      sets: 2
+      reps: AMRAP
+      vikt:
+        referens: 6RM
+        intensitet:
+          - 1
+          - 0.9  
+      vila: 5
+    - Press:
+      sets: 3
+      reps: AMRAP
+      vikt:
+        referens: 8RM
+        intensitet:
+          - 1
+          - 0.95
+          - 0.90
+      vila: 3
+    - Vadpress:
+      sets: 2
+      reps: 10
+      vikt:
+        referens: 10RM
+        intensitet:
+          - 1
+          - 1
+      vila: 3
+  - Onsdag:
+    - Knäböj:
+      sets: 3
+      reps: 10  
+      vikt:
+        referens: 10RM
+        intensitet:
+          - 0.6
+          - 0.6
+          - 0.6
+      vila: 3
+    - Bänkpress:
+      sets: 3
+      reps: AMRAP
+      vikt:
+        referens: 8RM
+        intensitet:
+          - 1
+          - 0.95
+          - 0.9
+      vila: 3
+    - Sälrodd:
+      sets: 3
+      reps: AMRAP
+      vikt:
+        referenspunkt: 8RM
+        intensitet:
+          - 1
+          - 0.95
+          - 0.9
+      vila: 3
+    - Kabelcrunch:
+      sets: 2
+      reps: 10
+      vikt: 
+        referens: 10RM
+        intensitet:
+          - 1
+          - 1
+      vila: 3
+  - Fredag:
+    - Knäböj:
+      sets: 3
+      reps: AMRAP
+      vikt: 10RM
+        referens: 10RM
+        intensitet:
+          - 1
+          - 0.9
+          - 0.8
+      vila: 5
+    - Latsdrag:
+      sets: 3
+      reps: AMRAP
+      vikt:
+        referens: 8RM
+        intensitet:
+          - 1
+          - 0.9
+          - 0.8
+      vila: 3
+    - Kabelpushdown:
+      sets: 2
+      reps: 10
+      vikt: 
+        referens: 10RM
+        intensitet:
+          - 1
+          - 1
+      vila: 1
+      notis: Alternera med kabelcurl
+    - Kabelcurl:
+      sets: 2
+      reps: 10
+      vikt: 
+        referens: 10RM
+        intensitet:
+          - 1
+          - 1
+      vila: 1
+      notis: Alternera med kabelpushdown
